@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Study Tool</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bible Study Tool</h1>
+            <div class="navigation">
+                <!-- Replace the select elements with custom dropdowns -->
+                <div class="dropdown">
+                    <button id="book-dropdown-btn" class="dropdown-btn">Select a Book</button>
+                    <div id="book-dropdown-content" class="dropdown-content">
+                        <!-- Book options will be added here by JavaScript -->
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <button id="chapter-dropdown-btn" class="dropdown-btn" disabled>Select a Chapter</button>
+                    <div id="chapter-dropdown-content" class="dropdown-content">
+                        <!-- Chapter options will be added here by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <div class="bible-content">
+                <h2 id="passage-title">Welcome to the Bible Study Tool</h2>
+                <div id="passage-text">
+                    <p>Select a book and chapter to begin reading.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
