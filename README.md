@@ -80,6 +80,7 @@ This project explores several novel technical approaches:
 ## 🔍 Research Foundation
 
 This project draws inspiration from:
+- The concept of "hyperlinking" in biblical texts developed by **Tim Mackie, PhD** ([BibleProject](https://bibleproject.com))
 - Traditional biblical exegesis methods
 - Modern digital humanities approaches
 - AI-assisted discovery systems
