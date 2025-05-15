@@ -35,6 +35,8 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
+![App Demo Screenshot](assets/demo1.png)
+
 ## 🛣️ Roadmap
 
 ### Phase 1: Foundation (Current)
